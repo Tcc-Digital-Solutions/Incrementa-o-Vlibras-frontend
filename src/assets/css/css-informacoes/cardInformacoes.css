@@ -1,0 +1,34 @@
+
+.card-interno{
+    border-radius: 15px;
+    background: #ffffff;
+    width: 212px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-externo{
+    background-color: #dadada;
+    border-radius: 15px;
+    border: 20px solid #dadada;
+}
+
+.card-texto{
+    font-size: 19px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .card {
+        width: 219px;
+        height: 151px;
+    }
+    .card-texto{
+        font-size: 17px;
+        margin: 10px;
+    }
+}

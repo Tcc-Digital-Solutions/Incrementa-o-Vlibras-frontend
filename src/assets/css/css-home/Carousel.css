@@ -1,0 +1,15 @@
+.Carousel-img{
+    width: 100%;
+    z-index: 99;
+}
+.Carousel_react-div{
+    margin-top: 61px;
+}
+
+.swiper-slide-1{
+    width: 100% !important;
+}
+
+.Carousel_react-01{
+    display: none;
+}

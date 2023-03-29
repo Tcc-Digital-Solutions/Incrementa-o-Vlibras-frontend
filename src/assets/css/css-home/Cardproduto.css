@@ -1,0 +1,51 @@
+.Cardproduto-div{
+    font-family: var(--font);
+    border-radius: 10px;
+    width: 295px;
+    height: 468px;
+    border: 1px solid #3261A8;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.Cardproduto-div-01{
+    background: #4970A9;
+    transform: rotate(270deg);
+    height: 157px;
+    width: 310px;
+    border-radius: 150px 150px 0 0;
+    left: -56%;
+    top: 194px;
+    position: absolute;
+}
+.Cardproduto-div-text{
+    width: 241px;
+}
+.Cardproduto-div-02{
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.Cardproduto-div-03{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.Cardproduto-button{
+    border: 0;
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #3261A8;
+    width: 167px;
+    height: 48px;
+    border-radius: 10px;
+    cursor: pointer;
+}

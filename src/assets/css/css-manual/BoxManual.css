@@ -1,0 +1,60 @@
+
+.BoxManual-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.pdf-container{
+    width: 97%;
+    height: 769px;
+    background-color: #ffffff;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .error-msg{
+    width: 100%;
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+.rpv-default-layout__toolbar {
+    background-color: #fff !important;
+    border: 0 !important;
+}
+.rpv-default-layout__sidebar-headers {
+    background-color: #fff !important;
+}
+.rpv-default-layout__sidebar--ltr {
+    border: 0 !important;
+}
+.rpv-default-layout__container {
+    border: 0 !important;
+}
+.rpv-default-layout__sidebar-content--ltr {
+    border: 0 !important;
+}
+
+@media only screen and (max-width: 1300px) {
+    .BoxManual-container{
+        margin-top: 17px;
+    }
+  
+}
+@media  screen and (max-height: 700px) {
+    .pdf-container {
+        width: 98%;
+        height: 463px;
+        margin-top: 5%;
+    }
+
+}
+

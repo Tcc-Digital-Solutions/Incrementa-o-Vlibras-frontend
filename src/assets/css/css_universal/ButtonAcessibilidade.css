@@ -1,0 +1,116 @@
+.button-acessibilidade-button {
+  width: 38px;
+  height: 36px;
+  background-color: #ffffff00;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  font-family: var(--fonte);
+}
+
+.button-acessibilidade-box-fechar{
+  display: none;
+}
+
+.button-acessibilidade-box{
+  background-color: #A5C4D7;
+  width: 160px;
+  height: 151px;
+  position: fixed;
+  border-radius: 12px;
+  bottom: 0;
+  top: initial;
+  margin-bottom: 91px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.button-acessibilidade-button-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 110px;
+}
+.button-acessibilidade-text{
+  border-radius: 12px 12px 0px 0px;
+  width: 100%;
+  height: 37px;
+  color: rgb(255, 255, 255);
+  background-color: #1D64A8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--fonte);
+}
+
+
+.button-acessibilidade-button-active {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: var(--cor-button-menu-ilha);
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: var(--cor-button-text-menu-ilha);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 137px;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.button-acessibilidade-button-active:hover {
+  background-color: var(--cor-button-active-menu-ilha);
+  color: var(--cor-button-active-text-menu-ilha);
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-acessibilidade-button-active:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-acessibilidade-button-active:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+.button-acessibilidade-img {
+  transition: transform .2s;
+}
+
+.button-acessibilidade-img:hover {
+    transform: scale(1.1);
+}

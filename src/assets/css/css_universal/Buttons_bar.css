@@ -1,0 +1,119 @@
+.buttons-bar-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: initial;
+  bottom: 0;
+  z-index: 1;
+}
+
+.buttons-bar-ilha {
+  background-color: var(--cor-menu-ilha);
+  width: 653px;
+  height: 62px;
+  border-radius: 39px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.buttons-bar-click-link {
+  text-decoration: none;
+}
+
+.buttons-bar-click {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: var(--cor-button-menu-ilha);
+  border-radius: 40px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: var(--cor-button-text-menu-ilha);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 140px;
+  height: 43px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-bar-click:hover {
+  background-color: var(--cor-button-active-menu-ilha);
+  color: var(--cor-button-active-text-menu-ilha);
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.buttons-bar-click:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.buttons-bar-click:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+@media only screen and (max-width: 700px) {
+  .buttons-bar-ilha {
+    width: 98%;
+    height: 62px;
+  }
+
+  .buttons-bar-click {
+    width: 95px;
+    height: 39px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+  }
+
+  .buttons-bar-acessibilidade-img {
+    width: 23px;
+  }
+
+  /* 
+  .buttons-bar-ilha-button-acessibilidade {
+    display: none;
+  } */
+}
+
+@media only screen and (max-width: 320px){
+  .buttons-bar-click {
+    width: 100%;
+    height: 36px;
+    font-size: 11px;
+  }
+  .button-youtube-box {
+    width: 291px;
+    margin-top: 66px;
+  }
+
+}

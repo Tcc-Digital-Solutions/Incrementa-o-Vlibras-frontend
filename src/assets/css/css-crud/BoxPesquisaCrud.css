@@ -1,0 +1,25 @@
+.box-pesquisa-crud-div{
+    border-radius: 12px;
+    width: 665px;
+    height: 42px;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--cor-borda-input);
+}
+
+.box-pesquisa-crud-span{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+}
+
+.box-pesquisa-crud-input{
+    width: 598px;
+    height: 37px;
+    border: 0;
+}

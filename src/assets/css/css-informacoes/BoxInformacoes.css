@@ -1,0 +1,26 @@
+.container-informacoes{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    position: fixed;
+}
+
+.BoxInformacoes-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .BoxInformacoes-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 84%;
+    }
+}
